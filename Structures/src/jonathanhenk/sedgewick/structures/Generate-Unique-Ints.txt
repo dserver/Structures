@@ -1,0 +1,12 @@
+
+Generate-Unique-Ints(N):
+
+	1. create an array the size of N ~ O(N)
+	2. Fill array with random values. Max > 2N if possible ~ O(N)
+	3. Sort the array ~ O(N log N)
+	4. Loop: Find index i,j s.t. A[i+1] ... A[j-1] are duplicates
+		For each value A[i+1]...A[j-1] put in random value between A[i] and A[j]
+		Caveat: If A[j] - A[i] - 1 is less than j - i - 1 remove A[i] or A[j] and try again.
+		Continue doing this until there are no more duplicates
+
+

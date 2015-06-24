@@ -1,0 +1,13 @@
+
+Update resume and send references to Temp Agency
+
+Finish the variable sized priority queue implementation. Needs a method to iterate in order to verify integrity.
+
+Finish the Binary Search Tree implementation using generic keys and values (using extends Comparable on key since their
+can't be more than one key)
+
+Write a Union Find implementation
+
+Finish Stable Marriage implementation
+
+Study CCNA
